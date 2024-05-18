@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+body {
+  background-color: rgba(2, 86, 103, 0.066);
+}
+.text-1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  color: rgb(41, 41, 41);
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: xx-small;
+
+  text-align: center;
+}
+.text-2 {
+  text-align: center;
+  top: 20%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border:2px solid black; */
+  padding: 2rem;
+  margin-top: 4rem;
+  width: 200px;
+  height: 100px;
+}
+.diamond {
+  border: 6px solid rgb(255, 229, 174);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: rotate(40deg);
+}
+.diamond1 {
+  border: 2px solid rgb(255, 229, 174);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: rotate(30deg);
+}
+.diamond2 {
+  border: 2px solid rgb(255, 229, 174);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: rotate(55deg);
+}
+.center-text {
+  /* background-color: aqua; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.text-3 {
+  text-align: center;
+  /* border:2px solid black; */
+  width: 50%;
+  margin: auto;
+
+  color: rgb(41, 41, 41);
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: xx-small;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 213, 255, 0.152);
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 213, 255, 0.241);
+  box-shadow: 10px black;
+}
+.month {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  font-weight: 800;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+.date1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.day {
+  margin-left: 1rem;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.time {
+  border-top: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.year {
+  margin-top: 0.5rem;
+  font-weight: 800;
+}
+.decor_image {
+  width: 20px;
+  height: 20px;
+}
+.center-bottom {
+  height: 200px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+.top-left {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 70%;
+}
+.right-bottom {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+  opacity: 70%;
+}
+
+@media (max-width: 600px) {
+  .right-bottom,
+  .top-left {
+    width: 100px;
+  }
+  .text-3 {
+    width: 80%;
+  }
+}
+@media (max-height: 480px) {
+  .text-2 {
+    text-align: center;
+    top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border:2px solid black; */
+    padding: 2rem;
+    margin-top: 4rem;
+    width: 150px;
+    height: 100px;
+  }
+  .diamond {
+    border: 6px solid rgb(255, 174, 174);
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: rotate(40deg);
+  }
+  .diamond1 {
+    border: 2px solid rgb(255, 214, 214);
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: rotate(30deg);
+  }
+  .diamond2 {
+    border: 2px solid rgb(255, 206, 206);
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: rotate(55deg);
+  }
+}
+@media (min-height: 800px) {
+  .center-text {
+    /* background-color: aqua; */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+@media (min-height: 1000px) {
+  .center-text {
+    /* background-color: aqua; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
