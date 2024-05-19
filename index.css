@@ -84,10 +84,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 213, 255, 0.152);
+  background-color: rgba(172, 241, 255, 0.127);
   padding: 5px;
   border-radius: 5px;
-  border: 2px solid rgba(0, 213, 255, 0.241);
+  border: 2px solid rgba(152, 238, 255, 0.241);
   box-shadow: 10px black;
 }
 .month {
